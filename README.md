@@ -15,4 +15,10 @@ You will need to fork the repository and build the solution in Github **publicly
 
 Implementation deadline is 3 days. Please let us know the time that you spent to achieve the task.
 
+##Solution
+
+The api tests were implemented using pytest instead of java as an exercise of personal gain (I've already implemented java frameworks, but not python ones for API).  
+
+It has been dockerized to allow the user to run it without worrying about the dependencies.  I uploaded it to dockerhub (omarnavarro/nasa-api).  In order to run it, one must only setup an environment variable in the 'docker-compose.yml' file:  NASA_API_KEY.
+
 
