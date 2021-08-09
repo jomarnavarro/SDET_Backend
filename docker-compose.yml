@@ -1,0 +1,7 @@
+version: "3"
+services:
+  finance:
+    image: omarnavarro/nasa-api
+    container_name: nasa-api
+    environment:
+      - NASA_API_KEY=<YOUR_KEY>
